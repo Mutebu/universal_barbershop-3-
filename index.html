@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Universal Barbershop — Classic Cuts, Modern Craft</title>
+<meta name="description" content="Universal Barbershop — premium haircuts, beard grooming and hot towel shaves. Book your appointment today.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader__mark">
+    <span class="preloader__letter">U</span>
+    <span class="preloader__letter">B</span>
+  </div>
+  <div class="preloader__bar"><span></span></div>
+</div>
+
+<!-- Scroll progress -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Header -->
+<header class="site-header" id="siteHeader">
+  <div class="container site-header__inner">
+    <a href="#home" class="logo">
+      <span class="logo__mark">UB</span>
+      <span class="logo__text">Universal<em>Barbershop</em></span>
+    </a>
+
+    <nav class="nav" id="mainNav">
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#philosophy" class="nav__link">Philosophy</a></li>
+        <li><a href="#barbers" class="nav__link">Barbers</a></li>
+        <li><a href="#gallery" class="nav__link">Gallery</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#location" class="nav__link">Location</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <a href="#contact" class="btn btn--brass btn--small header-cta">Book Now</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero__media">
+      <img src="src/photos/main_photo.avif" alt="Master barber at Universal Barbershop giving a precision haircut" class="hero__img">
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="container hero__content">
+      <p class="eyebrow reveal" data-reveal>✦ Est. Craftsmanship ✦</p>
+      <h1 class="hero__title">
+        <span class="reveal" data-reveal>Sharp Lines,</span>
+        <span class="reveal" data-reveal data-delay="1">Timeless</span>
+        <span class="reveal" data-reveal data-delay="2"><em>Style.</em></span>
+      </h1>
+      <p class="hero__subtitle reveal" data-reveal data-delay="3">
+        A modern barbershop built on old-world discipline — precise cuts, hot towel shaves,
+        and an atmosphere worth slowing down for.
+      </p>
+      <div class="hero__actions reveal" data-reveal data-delay="4">
+        <a href="#contact" class="btn btn--brass">Book an Appointment</a>
+        <a href="#gallery" class="btn btn--ghost">View Our Work</a>
+      </div>
+    </div>
+    <a href="#philosophy" class="hero__scroll" aria-label="Scroll to next section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- Philosophy / Why Us -->
+  <section class="philosophy" id="philosophy">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow reveal" data-reveal>Why Universal</p>
+        <h2 class="reveal" data-reveal>Every Detail, Considered</h2>
+        <p class="section-head__lead reveal" data-reveal>
+          We treat grooming as a craft, not a transaction. From the first hot towel to the final
+          line-up, everything is done with intent.
+        </p>
+      </div>
+
+      <div class="philosophy__grid">
+        <article class="philo-card reveal" data-reveal>
+          <span class="philo-card__num">01</span>
+          <h3>Master Craftsmanship</h3>
+          <p>Years of technique refined into every fade, taper and beard line — nothing rushed, nothing left to chance.</p>
+        </article>
+        <article class="philo-card reveal" data-reveal data-delay="1">
+          <span class="philo-card__num">02</span>
+          <h3>Premium Products</h3>
+          <p>Only quality oils, clays and balms touch your skin and hair — chosen for results, not shortcuts.</p>
+        </article>
+        <article class="philo-card reveal" data-reveal data-delay="2">
+          <span class="philo-card__num">03</span>
+          <h3>An Atmosphere to Slow Down In</h3>
+          <p>Warm wood, low light, good conversation. A chair you'll want to sit in a little longer.</p>
+        </article>
+        <article class="philo-card reveal" data-reveal data-delay="3">
+          <span class="philo-card__num">04</span>
+          <h3>Consistent Results</h3>
+          <p>The same sharp standard, visit after visit — so you always know what you're walking out with.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Barbers -->
+  <section class="barbers" id="barbers">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow reveal" data-reveal>The Chairs</p>
+        <h2 class="reveal" data-reveal>Meet the Barbers</h2>
+        <p class="section-head__lead reveal" data-reveal>
+          A small team, hand-picked for skill and care — led by a founder who still works the floor every day.
+        </p>
+      </div>
+
+      <div class="barbers__lead reveal" data-reveal>
+        <div class="barbers__lead-media">
+          <img src="src/photos/main_photo.avif" alt="Founder and master barber of Universal Barbershop">
+        </div>
+        <div class="barbers__lead-info">
+          <span class="barber-badge">Founder &amp; Master Barber</span>
+          <h3>Alexander Cole</h3>
+          <p>With over 15 years behind the chair, Alexander built Universal Barbershop around a simple idea:
+          precision and patience beat speed every time. He still personally trains every barber on the floor.</p>
+          <ul class="barber-tags">
+            <li>Classic Fades</li>
+            <li>Straight Razor Shaves</li>
+            <li>Beard Sculpting</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="barbers__grid">
+        <article class="barber-card reveal" data-reveal>
+          <div class="barber-card__media">
+            <img src="src/photos/barber-1.avif" alt="Barber at Universal Barbershop">
+          </div>
+          <h3>Marcus Reed</h3>
+          <p class="barber-card__role">Senior Barber</p>
+          <p class="barber-card__spec">Modern fades &amp; textured crops</p>
+        </article>
+        <article class="barber-card reveal" data-reveal data-delay="1">
+          <div class="barber-card__media">
+            <img src="src/photos/barber-2.avif" alt="Barber at Universal Barbershop">
+          </div>
+          <h3>Elias Brandt</h3>
+          <p class="barber-card__role">Barber &amp; Colorist</p>
+          <p class="barber-card__spec">Grey blending &amp; color work</p>
+        </article>
+        <article class="barber-card reveal" data-reveal data-delay="2">
+          <div class="barber-card__media">
+            <img src="src/photos/barber-3.avif" alt="Barber at Universal Barbershop">
+          </div>
+          <h3>Julian Voss</h3>
+          <p class="barber-card__role">Barber</p>
+          <p class="barber-card__spec">Beard sculpting &amp; hot towel shaves</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow reveal" data-reveal>Portfolio</p>
+        <h2 class="reveal" data-reveal>Recent Work</h2>
+        <p class="section-head__lead reveal" data-reveal>
+          A look at the cuts, fades and finishes coming out of our chairs.
+        </p>
+      </div>
+
+      <div class="gallery__grid">
+        <button class="gallery__item reveal" data-reveal data-index="0">
+          <img src="src/photos/portfolio-1.jpg" alt="Barbershop portfolio work 1" loading="lazy">
+          <span class="gallery__zoom">＋</span>
+        </button>
+        <button class="gallery__item reveal" data-reveal data-delay="1" data-index="1">
+          <img src="src/photos/portfolio-2.jpg" alt="Barbershop portfolio work 2" loading="lazy">
+          <span class="gallery__zoom">＋</span>
+        </button>
+        <button class="gallery__item reveal" data-reveal data-delay="2" data-index="2">
+          <img src="src/photos/portfolio-3.jpg" alt="Barbershop portfolio work 3" loading="lazy">
+          <span class="gallery__zoom">＋</span>
+        </button>
+        <button class="gallery__item reveal" data-reveal data-delay="3" data-index="3">
+          <img src="src/photos/portfolio-4.jpg" alt="Barbershop portfolio work 4" loading="lazy">
+          <span class="gallery__zoom">＋</span>
+        </button>
+        <button class="gallery__item reveal" data-reveal data-delay="4" data-index="4">
+          <img src="src/photos/portfolio-5.jpg" alt="Barbershop portfolio work 5" loading="lazy">
+          <span class="gallery__zoom">＋</span>
+        </button>
+        <button class="gallery__item reveal" data-reveal data-delay="5" data-index="5">
+          <img src="src/photos/portfolio-6.jpg" alt="Barbershop portfolio work 6" loading="lazy">
+          <span class="gallery__zoom">＋</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow reveal" data-reveal>Menu</p>
+        <h2 class="reveal" data-reveal>Services &amp; Pricing</h2>
+        <p class="section-head__lead reveal" data-reveal>
+          Simple, transparent pricing. Every service includes a consultation before we pick up the clippers.
+        </p>
+      </div>
+
+      <div class="services__list">
+        <div class="service-row reveal" data-reveal>
+          <div class="service-row__name"><h3>Signature Haircut</h3><p>Cut, styling &amp; hot towel finish</p></div>
+          <span class="service-row__dots"></span>
+          <span class="service-row__price">$35</span>
+        </div>
+        <div class="service-row reveal" data-reveal data-delay="1">
+          <div class="service-row__name"><h3>Beard Trim &amp; Line-Up</h3><p>Shape, trim &amp; hot towel treatment</p></div>
+          <span class="service-row__dots"></span>
+          <span class="service-row__price">$20</span>
+        </div>
+        <div class="service-row reveal" data-reveal data-delay="2">
+          <div class="service-row__name"><h3>Haircut &amp; Beard Combo</h3><p>Our most popular full service</p></div>
+          <span class="service-row__dots"></span>
+          <span class="service-row__price">$50</span>
+        </div>
+        <div class="service-row reveal" data-reveal data-delay="3">
+          <div class="service-row__name"><h3>Classic Hot Towel Shave</h3><p>Straight razor shave, steamed towels &amp; balm</p></div>
+          <span class="service-row__dots"></span>
+          <span class="service-row__price">$30</span>
+        </div>
+        <div class="service-row reveal" data-reveal data-delay="4">
+          <div class="service-row__name"><h3>Grey Blending / Color</h3><p>Natural-looking color &amp; grey coverage</p></div>
+          <span class="service-row__dots"></span>
+          <span class="service-row__price">$45</span>
+        </div>
+        <div class="service-row reveal" data-reveal data-delay="5">
+          <div class="service-row__name"><h3>Kids Cut</h3><p>Ages 12 &amp; under</p></div>
+          <span class="service-row__dots"></span>
+          <span class="service-row__price">$22</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow reveal" data-reveal>Reviews</p>
+        <h2 class="reveal" data-reveal>What Our Clients Say</h2>
+      </div>
+
+      <div class="testimonials__grid">
+        <blockquote class="testimonial-card reveal" data-reveal>
+          <div class="stars">★★★★★</div>
+          <p>"Best fade I've had in years. Alexander actually listens before he cuts — rare these days."</p>
+          <cite>— Daniel M.</cite>
+        </blockquote>
+        <blockquote class="testimonial-card reveal" data-reveal data-delay="1">
+          <div class="stars">★★★★★</div>
+          <p>"The hot towel shave alone is worth the visit. Clean shop, great music, better cuts."</p>
+          <cite>— Ryan T.</cite>
+        </blockquote>
+        <blockquote class="testimonial-card reveal" data-reveal data-delay="2">
+          <div class="stars">★★★★★</div>
+          <p>"Julian nailed my beard shape on the first try. Booking again before I even left the chair."</p>
+          <cite>— Owen P.</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location -->
+  <section class="location" id="location">
+    <div class="container location__grid">
+      <div class="location__info reveal" data-reveal>
+        <p class="eyebrow">Find Us</p>
+        <h2>Location &amp; Hours</h2>
+        <address>
+          Universal Barbershop<br>
+          12 Fildamı Sokak<br>
+          Edirnekapı, Fatih, Istanbul, Turkey
+        </address>
+        <table class="hours">
+          <tr><th>Mon – Fri</th><td>10:00 – 20:00</td></tr>
+          <tr><th>Saturday</th><td>10:00 – 18:00</td></tr>
+          <tr><th>Sunday</th><td>Closed</td></tr>
+        </table>
+        <a href="https://www.google.com/maps?q=41.031167,28.935944" target="_blank" rel="noopener" class="btn btn--brass btn--small">Get Directions</a>
+      </div>
+      <a class="location__map reveal" data-reveal data-delay="1"
+         href="https://www.google.com/maps?q=41.031167,28.935944" target="_blank" rel="noopener"
+         aria-label="Open Universal Barbershop location in Google Maps">
+        <span class="map-visual">
+          <span class="map-visual__grid" aria-hidden="true"></span>
+          <span class="map-visual__pin" aria-hidden="true">
+            <span class="map-visual__pin-pulse"></span>
+            <span class="map-visual__pin-dot"></span>
+          </span>
+          <span class="map-visual__coords">41°01'52.2"N &nbsp;28°56'09.4"E</span>
+          <span class="map-visual__cta">Open in Google Maps ↗</span>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container contact__grid">
+      <div class="contact__info reveal" data-reveal>
+        <p class="eyebrow">Get In Touch</p>
+        <h2>Book Your Chair</h2>
+        <p>Prefer to call or message us directly? We're happy to help you find the right time.</p>
+        <ul class="contact__details">
+          <li><span>Phone</span><a href="tel:+902125550123">+90 212 555 0123</a></li>
+          <li><span>Email</span><a href="mailto:hello@universalbarbershop.example">hello@universalbarbershop.example</a></li>
+          <li><span>Address</span><span>12 Fildamı Sokak, Edirnekapı, Fatih, Istanbul</span></li>
+        </ul>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="WhatsApp">WA</a>
+        </div>
+      </div>
+
+      <form class="contact__form reveal" data-reveal data-delay="1" id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Preferred date/time and service..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn--brass">Send Request</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <a href="#home" class="logo logo--footer">
+      <span class="logo__mark">UB</span>
+      <span class="logo__text">Universal<em>Barbershop</em></span>
+    </a>
+    <p class="site-footer__tag">Sharp lines, timeless style, since day one.</p>
+    <ul class="footer-nav">
+      <li><a href="#philosophy">Philosophy</a></li>
+      <li><a href="#barbers">Barbers</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#location">Location</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="site-footer__copy">© <span id="year"></span> Universal Barbershop. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Close">✕</button>
+  <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous image">‹</button>
+  <img src="" alt="" class="lightbox__img" id="lightboxImg">
+  <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next image">›</button>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
